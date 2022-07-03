@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "iranyekanwebregular", 'Courier New', Courier, monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1170px;
+    padding: 21px 0 7px;
+    background-color: rgba(255, 255, 255, 0.70);
+    position: sticky;
+    top: 0;
+}
+
+.header-ul {
+    list-style-type: none;
+    display: flex;
+}
