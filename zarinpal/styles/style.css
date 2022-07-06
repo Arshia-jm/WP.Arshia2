@@ -18,11 +18,130 @@ header {
     width: 1170px;
     padding: 21px 0 7px;
     background-color: rgba(255, 255, 255, 0.70);
+    backdrop-filter: blur(20px);
     position: sticky;
     top: 0;
+    margin: auto;
 }
 
 .header-ul {
     list-style-type: none;
     display: flex;
+}
+
+.header-ul li {
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+.header-ul li a {
+    color: #303030;
+}
+
+.header-ul li:last-child a {
+    color: #28457b;
+    background-color: rgba(232, 239, 254, 0.6);
+    border-radius: 20px;
+    padding: 10px 25px 10px 25px;
+    font-family: YekanBakhBold;
+    margin-right: 20px;
+    transition: all 0.4s ease;
+}
+
+.header-ul li:last-child a:hover {
+    background-color: #fbf6d9;
+}
+
+.logo {
+    margin: 11px 28px;
+}
+
+.more-menu {
+    display: flex;
+}
+
+.more-menu img {
+    width: 8px;
+    margin-right: 8px;
+}
+
+.banner {
+    width: 1050px;
+    padding: 124px 60px 80px;
+    background-image: linear-gradient(135deg, #21254e, #2b4a83);
+    border-radius: 20px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: -2;
+}
+
+.banner-text h3 {
+    font-family: YekanBakhHeavy;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.banner-text p {
+    color: #fff;
+    font-size: 1.15rem;
+    margin: 25px 0;
+    width: 510px;
+    line-height: 2.5rem;
+}
+
+.banner-image {
+    width: 500px;
+}
+
+.wave {
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    bottom: 60px;
+    left: 0;
+}
+
+.register {
+    font-size: 1rem;
+    font-family: YekanBakhBold;
+    color: #000;
+    background-color: #ffd900;
+    border-radius: 10px;
+    border: none;
+    padding: 6px 15px;
+    margin-left: 10px;
+}
+
+.login {
+    font-size: 1rem;
+    font-family: YekanBakhBold;
+    color: #fff;
+    background-color: #435a8a;
+    border-radius: 10px;
+    border: none;
+    padding: 6px 15px;
+}
+
+.go-down {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 58px;
+}
+
+.go-down div {
+    background-image: url(../images/arrowbottom.svg);
+    width: 165px;
+    height: 80px;
+}
+
+.go-down img {
+    width: 15px;
+    position: relative;
+    top: -60px;
 }
