@@ -22,6 +22,7 @@ header {
     position: sticky;
     top: 0;
     margin: auto;
+    z-index: 5;
 }
 
 .header-ul {
@@ -144,4 +145,156 @@ header {
     width: 15px;
     position: relative;
     top: -60px;
+}
+
+.online-payment {
+    width: 1170px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.online-payment .section-image {
+    width: 463px;
+    height: 483px;
+}
+
+.section-text {
+    margin: 30px 0;
+    width: 530px;
+}
+
+.section-text h2 {
+    color: #747480;
+    font-family: YekanBakhMedium;
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin: 20px 0 5px;
+}
+
+.section-text h3 {
+    color: #303030;
+    font-family: YekanBakhHeavy;
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 5px 0 10px;
+}
+
+.section-text p {
+    color: #303030;
+    font-family: YekanBakhMedium;
+    text-align: justify;
+    line-height: 40px;
+    border-bottom: 1px solid #dfe1e4;
+    padding-bottom: 20px;
+}
+
+.section-links {
+    margin-top: 40px;
+    display: flex;
+}
+
+.section-links .first-butten {
+    font-family: YekanBakhMedium;
+    color: #000;
+    background-color: #ffd900;
+    padding: 8px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.section-links .second-butten {
+    font-family: YekanBakhMedium;
+    font-size: 0.9rem;
+    color: #28457b;
+    background-color: rgba(232, 239, 254, 0.7);
+    padding: 6px 14px;
+    border-radius: 10px;
+}
+
+.section-links .second-butten img {
+    margin-right: 5px;
+    position: relative;
+    top: 8px;
+}
+
+.attributes {
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.definition {
+    width: 35%;
+    margin-top: 50px;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
+    padding: 30px;
+}
+
+.items img {
+    width: 60px;
+    height: 60px;
+}
+
+.items .item {
+    padding: 18px 25px 20px 0;
+}
+
+.items .item p {
+    text-align: justify;
+}
+
+.items p {
+    margin: 20px 0 20px 10px;
+    font-size: 1rem;
+    font-family: YekanBakhHeavy;
+    color: #303030;
+    line-height: 36px;
+}
+
+.item h5 {
+    font-size: 1.5rem;
+    margin-right: 20px;
+    font-family: YekanBakhHeavy;
+}
+
+.items .item div {
+    display: flex;
+    align-items: center;
+}
+
+.definition h3 {
+    font-family: YekanBakhHeavy;
+    font-size: 2rem;
+}
+
+.definition p {
+    width: 85%;
+    line-height: 30px;
+    font-size: 1rem;
+    margin-top: 40px;
+    text-align: justify;
+}
+
+.first-item {
+    border-left: 1px solid #e0e4e7;
+}
+
+.second-item {
+    border-bottom: 1px solid #e0e4e7;
+}
+
+.third-item {
+    border-top: 1px solid #e0e4e7;
+}
+
+.fourth-item {
+    border-right: 1px solid #e0e4e7;
 }
