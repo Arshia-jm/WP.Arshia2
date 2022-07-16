@@ -39,7 +39,7 @@ header {
     color: #303030;
 }
 
-.header-ul li:last-child a {
+.butten-zarinpala {
     color: #28457b;
     background-color: rgba(232, 239, 254, 0.6);
     border-radius: 20px;
@@ -64,6 +64,133 @@ header {
 .more-menu img {
     width: 8px;
     margin-right: 8px;
+}
+
+.hamburger-icon {
+    display: none;
+}
+
+.hamburger-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    width: 100%;
+    font-family: YekanBakhMedium;
+    transform: translateY(-100%);
+}
+
+.cross-icon {
+    width: 100%;
+    text-align: left;
+    padding: 20px 0;
+}
+
+.cross-icon img {
+    width: 20px;
+    margin-left: 30px;
+}
+
+.show-hamburger-menu {
+    animation: showUp .35s forwards;
+}
+
+.hamburger-menu-items {
+    padding: 10px 30px;
+}
+
+.hamburger-menu-items ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+.more-item {
+    text-align: right;
+    margin-right: 30px;
+}
+
+.hamburger-menu-items a {
+    color: #000;
+    display: inline-block;
+    padding: 3px 0;
+}
+
+.hamburger-menu-items div {
+    height: 1px;
+    background-color: #dfe1e4;
+    width: 90%;
+    margin: 8px 0;
+}
+
+.more-item {
+    display: flex;
+    background-color: #eee;
+}
+
+#show-more-menu {
+    position: relative;
+}
+
+#show-more-menu ul {
+    position: absolute;
+    top: 30px;
+    left: -35px;
+    background-color: #fff;
+    border-top: 5px solid #f8e88b;
+    border-radius: 12px;
+    padding: 20px 0;
+    list-style-type: none;
+    width: 123px;
+    display: none;
+}
+
+#show-more-menu a:hover {
+    background-color: rgba(232, 239, 254, 0.6);
+}
+
+#show-more-menu li {
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 0.8rem;
+    color: #000;
+}
+
+#show-product-menu {
+    position: relative;
+}
+
+#show-product-menu a:hover {
+    background-color: rgba(232, 239, 254, 0.6);
+}
+
+.product-menu {
+    position: absolute;
+    top: 30px;
+    left: -135px;
+    background-color: #fff;
+    border-top: 5px solid #f8e88b;
+    border-radius: 12px;
+    display: none;
+    justify-content: flex-start;
+    width: 372px;
+    padding: 5px;
+    margin-top: 23px;
+}
+
+.product-menu a p:first-child {
+    color: #000;
+    font-size: 0.95rem;
+}
+
+.product-menu a p:last-child {
+    color: #000;
+    font-size: 0.7rem;
+}
+
+.product-menu a {
+    margin: 10px;
+    padding: 10px;
+    display: block;
 }
 
 .banner {
@@ -298,3 +425,271 @@ header {
 .fourth-item {
     border-right: 1px solid #e0e4e7;
 }
+
+footer {
+    width: 1170px;
+    padding: 10px auto;
+    margin: 0 auto 50px auto;
+}
+
+footer section {
+    display: flex;
+    width: 1170px;
+}
+
+.options {
+    display: flex;
+    /* display: inline-block; */
+    width: 828px;
+}
+
+.options li a {
+    cursor: pointer;
+    color: #000;
+}
+
+.options ul {
+    list-style: none;
+    margin-top: 1rem;
+    margin-left: 10px;
+    width: 179px;
+    height: 160px;
+    line-height: 40px;
+}
+
+.options div {
+    margin-bottom: 50px;
+}
+
+.options div p {
+    font-size: 20px;
+    cursor: pointer;
+    color: #303030;
+    font-family: 'YekanBakhHeavy';
+}
+
+.last-img img {
+    width: 78px;
+    height: 82px;
+    margin: 30px 116px;
+}
+
+.icon-img1 {
+    width: 24px;
+    height: 24px;
+}
+
+.icon-img2 {
+    width: 24px;
+    height: 19px;
+}
+
+.icon-img3 {
+    width: 24px;
+    height: 22px;
+}
+
+.icon-img4 {
+    width: 20px;
+    height: 17px;
+}
+
+.icon-img5 {
+    width: 28px;
+    height: 28px;
+}
+
+.icon {
+    border-radius: 10px;
+    background: #eff4fe;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    margin-right: 15px;
+}
+
+.networks-icon {
+    display: flex;
+    /* justify-content: space-between; */
+    text-align: center;
+}
+
+.iconimg {
+    transition: all 0.5s;
+}
+
+.icon-title {
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: 'YekanBakhHeavy';
+}
+
+.icon:hover {
+    background-color: white;
+}
+
+.iconimg:hover {
+    opacity: 0.5;
+}
+
+.zang-img {
+    width: 23px;
+    height: 26px;
+    cursor: pointer;
+}
+
+.zang-div {
+    background-color: #21254e;
+    border-radius: 50px;
+    border: 1px solid #FFFFFF;
+    background-color: #2E82FF;
+    border-radius: 50%;
+    padding: 10px;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+}
+
+.zang-img {
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+}
+
+.options p:hover {
+    color: #21457f;
+}
+
+.icon-title:hover {
+    color: #21457f;
+}
+
+.support {
+    display: flex;
+    justify-content: space-between;
+    background: #fbf6f1;
+    border-radius: 35px;
+    padding: 0 30px;
+    margin: 0 auto 50px;
+    height: 70px;
+    width: 1170px;
+}
+
+.support .text {
+    margin: 20px 0px;
+    color: #303030;
+    font-family: 'YekanBakhHeavy';
+    font-size: 24px;
+}
+
+.support .text span {
+    margin-right: 10px;
+}
+
+.support .text .phone-number {
+    color: #21457b;
+}
+
+.request {
+    margin: 20px 0;
+}
+
+.request a {
+    color: #21457f;
+    font-family: 'YekanBakhHeavy';
+    font-size: 24px;
+}
+
+.request img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    position: relative;
+    top: 5px;
+}
+
+.strat-box {
+    width: 1170px;
+    border: 1px solid #c3c6cd;
+    border-radius: 20px;
+    padding: 40px 0;
+    margin: 0 auto 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.strat-box .top {
+    color: #303030;
+    font-size: 28px;
+    font-family: 'YekanBakhHeavy';
+}
+
+.strat-box .bottom {
+    margin-top: 9px;
+    color: #747480;
+    font-size: 22px;
+}
+
+.strat-box a {
+    background: transparent linear-gradient(270deg, #ffd900, #ffe422);
+    margin-top: 17px;
+    font-size: 14px;
+    padding: 4px 14px;
+    line-height: 28px;
+    border-radius: 10px;
+    outline: none;
+    margin-left: 10px;
+    cursor: pointer;
+    white-space: nowrap;
+    font-family: 'YekanBakhMedium';
+}
+
+@keyframes showUp {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 1200px) {
+    header {
+        width: 940px;
+    }
+}
+
+@media (max-width: 990px) {
+    header {
+        width: auto;
+        padding: 20px 60px;
+    }
+    .header-ul li:last-child {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        width: auto;
+        padding: 10px 8px;
+    }
+    .header-ul {
+        display: none;
+    }
+    .hamburger-icon {
+        display: block;
+    }
+}
+
+@media (max-width: 575px) {}
