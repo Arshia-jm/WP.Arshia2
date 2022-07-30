@@ -1,9 +1,10 @@
 // first homework
-// const mainArr = [
-//     ["Arshia", "Bardia"],
-//     ["Amir hossein", "Farid", "omid reza"],
-//     ["Jamal zade", "Hassan zade", "Jannat Makan"]
-// ]
+let mainArr = [
+    ["Arshia", "Bardia"],
+    ["Amir hossein", "Farid", "omid reza"],
+    ["Jamal zade", "Hassan zade", "Jannat Makan"]
+]
+
 // const newArr = [...mainArr[0], ...mainArr[1], ...mainArr[2]];
 // console.log(newArr.sort().reverse());
 
