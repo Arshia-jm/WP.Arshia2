@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 6em auto 330px 6rem 2rem;
+    align-content: flex-start;
+    height: 100%;
+    text-align: center;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+}
+
+#letters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+#letters div {
+    margin: 5px;
+    padding-top: 0.5em;
+    border: 1px solid gray;
+    color: darkgreen;
+    width: 2em;
+    height: 2em;
+    line-height: 0.9;
+}
+
+#clue p {
+    margin: 0;
+    font-size: 3rem;
+    letter-spacing: 0.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+}
+
+#letters div.used {
+    background-color: lightgray;
+    opacity: 0.5;
+}
+
+#image {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#gameover p {
+    display: none;
+    font-size: 1.5em;
+    color: red;
+}
+
+#winner p {
+    display: none;
+    font-size: 1.5em;
+    color: green;
+}
