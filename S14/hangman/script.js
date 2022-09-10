@@ -23,7 +23,8 @@ function setUnderscore() {
 function checkIfWon() {
     if (randomItem === result) {
         document.getElementById("winner").querySelector("p").style.display = "block";
-        document.querySelector("img").src = "assets/winner.png";
+        const image = document.getElementById("image").querySelector("img");
+        image.src = "assets/winner.png";
     }
 }
 
